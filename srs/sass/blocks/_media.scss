@@ -55,13 +55,23 @@
        margin-top: 2px;
        font-size: 15px; 
     }  
-    .header__oficial{
+    .header__oficial {
         font-size: 8px;
-        span{
+        span {
             font-size: 12px;
-        }
-    } 
+            }
+        } 
     }
+    .consultation {
+        padding-left: 20px;
+        .title_left {
+            font-size: 30px;
+        }
+        .consultation__discr {
+            font-size: 17px;
+            }
+        }
+    
 }
 @media (max-width: 576px){
     .header {
@@ -90,5 +100,19 @@
             font-size: 18px;
             padding-top: 36px;
         }
+    }
+    .consultation {
+        padding: 50px 0 92px 25px;
+        .title_left {
+            font-size: 20px;
+        }
+        .consultation__discr {
+            font-size: 12px;
+            line-height: 18px;
+            }
+        .feed-form {
+            width: 270px;
+        }
+
     }
 }
