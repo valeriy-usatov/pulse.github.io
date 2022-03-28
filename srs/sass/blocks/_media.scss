@@ -71,7 +71,18 @@
             font-size: 17px;
             }
         }
-    
+    .carousel {
+        padding: 81px 0;
+        &__inner {
+            width: 570px;
+            margin: 0 auto;
+            img {
+                width: 90%;
+                margin: 0 auto;
+            }
+            
+        }
+    }
 }
 @media (max-width: 576px){
     .header {
@@ -114,5 +125,17 @@
             width: 270px;
         }
 
+    }
+    .carousel {
+        padding: 81px 0;
+        &__inner {
+            width: 450px;
+            margin: 0 auto;
+            img {
+                width: 70%;
+                margin: 0 auto;
+            }
+            
+        }
     }
 }
