@@ -3,6 +3,8 @@
        font-family: 'MuseoModerno','Roboto', sans-serif
        
    } 
+$main-color: red;
+
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -16,4 +18,5 @@
 @import "blocks/consultation";
 @import "blocks/carousel";
 @import "blocks/forms";
+@import "blocks/catalog";
 @import "blocks/media";

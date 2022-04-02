@@ -22,4 +22,30 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+        li::marker {
+            display: none;
+            font-size: 0;
+            }
+        button {
+            width: 50px;
+            height: 50px;
+            border-radius:100%;
+            border:none;
+            background-color: rgb(24, 87, 168);
+                }
+        .slick-active {
+            
+            border-radius: 100%;
+            button {
+                background-color: red;
+                }
+            }
+     }
+        
 }
