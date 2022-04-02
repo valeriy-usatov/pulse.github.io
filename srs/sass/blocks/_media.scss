@@ -142,4 +142,37 @@
         }
         
     }
+    .catalog {
+        padding-bottom: 30px;
+        &__tab {
+            font-size: 10px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .comment {
+        &_user {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title {
+            font-size: 25px;
+            
+        }
+        &_users {
+            margin-top: 30px;
+            img {
+                margin: 0 auto;
+            }
+        }
+        &_title {
+            margin-top: 25px;
+            text-align: center;
+        }
+        &_subtitle {
+            margin-bottom: 8px;
+            text-align: center;
+        }
+    }
 }

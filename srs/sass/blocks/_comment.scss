@@ -1,0 +1,44 @@
+.comment {
+    min-height: 920px;
+    &_users {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img{
+            display: block;
+            width: 169px;
+            height: 169px;
+            margin-right: 60px;
+        }
+    }
+    &_title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &_subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &_discr {
+        
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+    
+    &_user {
+        display:flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 48px;
+        }
+    }
+
+
+}
