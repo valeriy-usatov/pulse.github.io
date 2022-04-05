@@ -123,7 +123,7 @@
             }
         .feed-form {
             width: 270px;
-            
+        }
 
     }
     .carousel {
@@ -177,15 +177,14 @@
     }
     .footer {
         &__info {
-            width: 401px;
+            width: 327px;
         }
     }
-
     .modal {
-        width: 301px;
+        width: 260px;
+        .feed-form_mt25 {
+            width: 188px;
+        }
     }
-    .feed-form {
-        width: 220px;
-    }
-
+    
 }
