@@ -5,7 +5,7 @@
 /src/js/mailer/smart.php
 # testing
 /coverage
-
+src/js/mailer/smart.php
 # production
 /build
 /mailer/
