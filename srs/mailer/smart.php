@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'Valeriy-usatov@yandex.ru';                 // Наш логин
 $mail->Password = 'yxakrgrxkdwlywcm';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 465;                                  // TCP port to connect to
  
 $mail->setFrom('Valeriy-usatov@yandex.ru', 'Pulse');   // От кого письмо 
 $mail->addAddress('Valeriy-usatov@yandex.ru');     // Add a recipient
