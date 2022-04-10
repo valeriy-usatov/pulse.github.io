@@ -2,12 +2,22 @@
     min-height: 473px;
     background: #F6F6F6;
     padding: 72px 0 80px 0;
-
-    .advantages_img {
+    &_img {
         display: block;
         margin: 0 auto;
+        &_animated {
+            animation: heartbeat 2s ease infinite alternate-reverse;
+            // animation-name: heartbeat;
+            // animation-duration: 2s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite ;
+            // animation-direction: alternate-reverse;
+            &:hover {
+                animation-play-state: paused;
+                }
+            }
         }
-    .advantages_distr {
+    &_distr {
         margin-top: 20px;
         font-size: 14px;
         line-height: 18px;
@@ -19,7 +29,7 @@
             text-transform: uppercase;
         }
     }
-    .advantages_subtitle {
+    &_subtitle {
         margin-top: 35px;
         font-weight: 700;
         font-size: 18px;
