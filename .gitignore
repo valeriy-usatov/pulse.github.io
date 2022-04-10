@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-src/js/mailer/smart.php
+# /src/js/mailer/smart.php
 # testing
 /coverage
 
@@ -15,7 +15,7 @@ src/js/mailer/smart.php
 .env.development.local
 .env.test.local
 .env.production.local
-src/js/mailer/smart.php
+# src/js/mailer/smart.php
 
 npm-debug.log*
 yarn-debug.log*
