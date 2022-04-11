@@ -49,7 +49,7 @@
     }
     &-item {
         width: 303px;
-        min-height: 442px;
+        min-height: 380px;
         background-color: #fff;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px ;
@@ -113,6 +113,7 @@
             color: #050505;
         }
         &__wrapper {
+            min-height: 380px;
             display: flex;
             width: calc(200% + 40px);
         }
@@ -127,13 +128,14 @@
             }
         }
         &__list {
+            // min-height: 380px;
             position: relative;
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
             padding-right: 20px;
+            padding-bottom: 15px;
             transition: 0.5s all;
-            padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;    
             &_active {
@@ -160,7 +162,7 @@
         }
         &__back {
             position: absolute;
-            bottom: 0;
+            bottom: 10px;
             left: 50%;
             transform: translateX(calc(-50% - 19px));
             display: block;
